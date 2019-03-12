@@ -1,0 +1,102 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"/ > @font-face {
+    font-family: 'DIN-Bold';
+    src: url('ttps: //www.datto.com/fonts/d-din/');
+}
+
+figure {
+    width: 120px;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    overflow: hidden;
+}
+
+img {
+    width: auto;
+    height: 600px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+figure {
+    position: relative;
+}
+
+h1,
+h2,
+ul,
+img,
+button,
+#online,
+#naam {
+    position: absolute;
+}
+
+h1,
+h2 {
+    font-family: 'DIN-Bold';
+    background-color: #0039ff;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+
+button {
+    font-family: 'DIN-Bold';
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #0039ff;
+    border: none;
+}
+
+li {
+    font-family: 'DIN-Bold';
+    text-transform: uppercase;
+    text-align: left;
+    color: white;
+    /*    word-spacing: -10px;*/
+    line-height: 35px;
+    text-shadow: 0 0 10px black;
+    display: block;
+}
+
+#naam {
+    margin-top: 110px;
+    left: 1px;
+    font-size: 40px;
+}
+
+#online {
+    top: 250px;
+    left: 1px;
+    font-size: 21px;
+}
+
+#achtergrond {
+    right: 0;
+}
+
+h1 {
+    top: 30px;
+    left: 0;
+}
+
+h2 {
+    top: 180px;
+    right: 0;
+}
+
+button {
+    top: 380px;
+    left: 7px;
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
